@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Home from "./pages/Home";
+import Header from "./components/Header";
+import Profile from "./pages/Profile";
 
 const App = () => {
 	return (
 		<div>
 			<Header />
-			<Home />
+			<Profile />
 			<Footer />
 		</div>
 	);
